@@ -38,6 +38,7 @@ for s in students:
     mark = float(input(f"Mark for {s[1]} (ID: {s[0]}): "))
     marks[selected_course][s[0]] = mark
 
+
 print("\n--- Marks in Course", selected_course, "---")
 for sid, mark in marks[selected_course].items():
     print("Student ID:", sid, "| Mark:", mark)
